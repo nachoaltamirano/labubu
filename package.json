@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "lint": "eslint"
   },
   "dependencies": {
@@ -27,5 +27,9 @@
     "eslint-config-next": "15.5.4",
     "tailwindcss": "^4",
     "typescript": "^5"
+  }
+  ,
+  "engines": {
+    "node": "20.x"
   }
 }
